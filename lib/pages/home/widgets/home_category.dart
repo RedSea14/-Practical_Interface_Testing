@@ -22,12 +22,12 @@ class HomeCategory extends StatelessWidget {
             title: 'DANH MỤC SẢN PHẨM',
           ),
           SizedBox(
-            height: getHeight(context) * 0.04,
+            height: getHeight(context) * 0.03,
           ),
           MyCustomCategoryPageView(
             data: homeCategoryData,
             itemCountPerPage: 4,
-            pageViewHeight: 0.18,
+            pageViewHeight: 0.17,
           )
         ],
       ),

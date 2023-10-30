@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
               homeBannerData: homeBannerData,
             ),
             SizedBox(
-              height: getHeight(context) * 0.05,
+              height: getHeight(context) * 0.03,
             ),
             const HomeCategory(),
             SizedBox(
